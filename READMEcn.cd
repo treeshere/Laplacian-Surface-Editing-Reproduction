@@ -1,7 +1,7 @@
 Mesh Editing with Laplacian System
 项目概述
 本项目实现了一个基于拉普拉斯算子 (Laplacian) 的网格编辑工具，允许用户通过指定边界控制点和操作点来编辑三维网格（如PLY格式的网格）。该程序通过构建网格的图表示，计算随机游走拉普拉斯矩阵（Random Walk Laplacian），并解决一个线性系统来完成网格的形变。修改后的网格可以导出为新的PLY文件，并可以与原始网格进行叠加显示，方便用户进行可视化对比。
-
+本项目参考了罗世通学长的实现项目https://github.com/luost26/laplacian-surface-editing
 功能
 从PLY格式的网格文件中加载三维网格模型。
 使用控制点和边界点来定义网格编辑区域。
